@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; À propos — Département Informatique EFREI</title>
+  <meta name="description" content="Contactez le département informatique de l'EFREI Paris. Adresse à Villejuif, formulaire de contact, FAQ admissions.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="img/logo-efrei.png" alt="EFREI Paris">
+        <div class="logo-sep"></div>
+        <div class="logo-dept">Département<br>Informatique</div>
+      </a>
+      <nav class="nav-main" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="formations.html" class="nav-link">Formations</a>
+        <a href="equipe.html" class="nav-link">Équipe</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Ouvrir le menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-nav" aria-label="Navigation mobile">
+    <a href="index.html">Accueil</a>
+    <a href="formations.html">Formations</a>
+    <a href="equipe.html">Équipe</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <section class="sec">
+    <div class="container">
+      <div class="sec-label fade-up">Contact</div>
+      <h1 class="sec-title fade-up">Contactez-nous</h1>
+      <p class="sec-sub fade-up">Une question sur les admissions ou nos programmes ? N'hésitez pas à nous écrire.</p>
+
+      <div class="cgrid fade-up">
+
+        <div>
+          <form id="contactForm" novalidate>
+            <div class="fg">
+              <label class="fl" for="name">Nom complet *</label>
+              <input type="text" id="name" name="name" class="fi" placeholder="Jean Dupont" autocomplete="name">
+              <div class="ferr">Veuillez entrer votre nom (min. 2 caractères).</div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="email">Email *</label>
+              <input type="email" id="email" name="email" class="fi" placeholder="jean.dupont@email.com" autocomplete="email">
+              <div class="ferr">Veuillez entrer un email valide.</div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="subject">Objet</label>
+              <select id="subject" name="subject" class="fsel">
+                <option value="">Choisir un sujet...</option>
+                <option>Admissions</option>
+                <option>Formations</option>
+                <option>Stages &amp; Alternance</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="message">Message *</label>
+              <textarea id="message" name="message" class="fta" placeholder="Votre message..."></textarea>
+              <div class="ferr">Veuillez entrer un message (min. 10 caractères).</div>
+            </div>
+            <button type="submit" class="btn btn-p btn-full">Envoyer le message →</button>
+          </form>
+          <div class="fsuccess">✓ Message envoyé. Nous vous répondrons rapidement.</div>
+        </div>
+
+        <div class="cinfo">
+          <h3>Informations</h3>
+          <div class="cdet">
+            <div class="cdet-ico" aria-hidden="true">📍</div>
+            <div>
+              <div class="cdet-t">Adresse</div>
+              <div class="cdet-x">30-32 Avenue de la République<br>94800 Villejuif, France</div>
+            </div>
+          </div>
+          <div class="cdet">
+            <div class="cdet-ico" aria-hidden="true">📞</div>
+            <div>
+              <div class="cdet-t">Téléphone</div>
+              <div class="cdet-x">+33 1 46 77 46 77</div>
+            </div>
+          </div>
+          <div class="cdet">
+            <div class="cdet-ico" aria-hidden="true">✉️</div>
+            <div>
+              <div class="cdet-t">Email</div>
+              <div class="cdet-x">informatique@efrei.fr</div>
+            </div>
+          </div>
+          <div class="cdet">
+            <div class="cdet-ico" aria-hidden="true">🚇</div>
+            <div>
+              <div class="cdet-t">Accès</div>
+              <div class="cdet-x">Métro Ligne 7 — Villejuif Léo Lagrange<br>Future Ligne 15</div>
+            </div>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps?q=30+Avenue+de+la+R%C3%A9publique+94800+Villejuif&output=embed"
+              title="Carte du campus EFREI Villejuif"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-alt">
+    <div class="container">
+      <div class="sec-label fade-up">Admissions</div>
+      <h2 class="sec-title fade-up">Procédure d'admission</h2>
+      <p class="sec-sub fade-up">Quatre étapes pour rejoindre le département informatique.</p>
+
+      <div class="steps fade-up mt-16">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-t">Candidature</div>
+          <div class="step-d">Via Parcoursup ou dossier direct</div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-t">Concours</div>
+          <div class="step-d">Concours Puissance Alpha ou entretien</div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-t">Résultats</div>
+          <div class="step-d">Notification d'admission</div>
+        </div>
+        <div class="step">
+          <div class="step-n">4</div>
+          <div class="step-t">Rentrée</div>
+          <div class="step-d">Intégration et cours</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-alt" id="permanences">
+    <div class="container">
+      <div class="sec-label fade-up">Vie du département</div>
+      <h2 class="sec-title fade-up">Agenda des permanences</h2>
+      <p class="sec-sub fade-up">Les enseignants du département informatique reçoivent les étudiants pour des questions pédagogiques, des orientations de projet ou un suivi personnalisé.</p>
+
+      <div class="perm-wrap fade-up">
+        <table class="dtable">
+          <thead>
+            <tr>
+              <th>Jour</th>
+              <th>Horaires</th>
+              <th>Enseignant</th>
+              <th>Bureau</th>
+              <th>Sujet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lundi</td>
+              <td>14h00 — 16h00</td>
+              <td>Prof. H. Rousset</td>
+              <td>B-204</td>
+              <td>Algorithmique et structures de données</td>
+            </tr>
+            <tr>
+              <td>Mardi</td>
+              <td>10h00 — 12h00</td>
+              <td>Prof. C. Lacombe</td>
+              <td>B-318</td>
+              <td>Programmation système et C</td>
+            </tr>
+            <tr>
+              <td>Mercredi</td>
+              <td>13h00 — 15h00</td>
+              <td>Prof. A. Vasseur</td>
+              <td>A-105</td>
+              <td>Intelligence artificielle et machine learning</td>
+            </tr>
+            <tr>
+              <td>Jeudi</td>
+              <td>15h00 — 17h00</td>
+              <td>Dr. I. Benkhelifa</td>
+              <td>B-411</td>
+              <td>Cybersécurité et réseaux</td>
+            </tr>
+            <tr>
+              <td>Vendredi</td>
+              <td>09h00 — 11h00</td>
+              <td>Dr. M. Pham</td>
+              <td>A-220</td>
+              <td>Bases de données et data engineering</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="perm-note">Prise de rendez-vous recommandée par email. Les permanences peuvent être annulées pendant les périodes de partiels.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="faq">
+    <div class="container">
+      <div class="sec-label fade-up">FAQ</div>
+      <h2 class="sec-title fade-up">Questions fréquentes</h2>
+      <p class="sec-sub fade-up">Les réponses aux questions les plus courantes des futurs étudiants.</p>
+
+      <div class="mt-16 fade-up">
+        <div class="faq">
+          <div class="faq-q">
+            <span>Quels sont les prérequis pour le Bachelor ?</span>
+            <span class="faq-tog" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-a">
+            <div class="faq-ai">Le Bachelor est accessible après le baccalauréat via Parcoursup. Les spécialités Mathématiques et NSI sont recommandées mais pas obligatoires.</div>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-q">
+            <span>Quel est le coût de la scolarité ?</span>
+            <span class="faq-tog" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-a">
+            <div class="faq-ai">Les frais varient selon le programme. En alternance, la scolarité est intégralement prise en charge par l'entreprise d'accueil.</div>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-q">
+            <span>Y a-t-il des logements étudiants à proximité ?</span>
+            <span class="faq-tog" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-a">
+            <div class="faq-ai">Oui, plusieurs résidences se trouvent à proximité du campus. Le service vie étudiante accompagne les recherches.</div>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-q">
+            <span>Double diplôme à l'international ?</span>
+            <span class="faq-tog" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-a">
+            <div class="faq-ai">L'EFREI dispose de partenariats avec plus de 100 universités dans 42 pays pour des doubles diplômes et échanges.</div>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-q">
+            <span>Comment se déroule l'alternance ?</span>
+            <span class="faq-tog" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-a">
+            <div class="faq-ai">Le rythme classique est de 3 semaines en entreprise et 1 semaine à l'école. L'EFREI accompagne les alternants dans leur recherche d'entreprise dès l'admission.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-alt" id="about">
+    <div class="container">
+      <div class="sec-label fade-up">À propos</div>
+      <h2 class="sec-title fade-up">L'équipe du projet</h2>
+      <p class="sec-sub fade-up">Site réalisé dans le cadre du cours TI402 — Programmation Web, EFREI 2025-2026.</p>
+
+      <div class="gr gr2 fade-up">
+        <div class="mcard">
+          <div class="mcard-av" aria-hidden="true">BB</div>
+          <div>
+            <div class="mcard-n">Benjamin Bouchoucha</div>
+            <div class="mcard-role">Frontend — Design &amp; CSS</div>
+            <div class="mcard-d">Responsable du design, des maquettes et de l'intégration HTML/CSS. Charte graphique et responsive design.</div>
+          </div>
+        </div>
+        <div class="mcard">
+          <div class="mcard-av" aria-hidden="true">RM</div>
+          <div>
+            <div class="mcard-n">Romain Malot</div>
+            <div class="mcard-role">Frontend — JavaScript</div>
+            <div class="mcard-d">Carrousel d'images, validation formulaires, menu dynamique et animations CSS/JS.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box fade-up">
+        <div class="card-t">À propos du projet</div>
+        <p>
+          Ce site vitrine a été développé dans le cadre du module TI402 (Programmation Web) sous la direction de M. Hamidi.
+          Le projet a été réalisé entièrement en <strong>HTML5, CSS3 et JavaScript</strong> natifs, sans framework ni bibliothèque externe,
+          en respectant la charte graphique officielle du département (Bleu Académique, Cyan Technologique, Jaune Électrique).
+        </p>
+        <ul class="tri-list">
+          <li>4 pages avec header et footer communs, navigation responsive</li>
+          <li>Carrousel d'images avec autoplay, flèches et support tactile</li>
+          <li>Formulaire de contact avec validation JavaScript</li>
+          <li>FAQ en accordéon, onglets de programmes filtrables</li>
+          <li>Animations au scroll avec IntersectionObserver</li>
+          <li>Toutes les pages valides W3C</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="ft-grid">
+        <div>
+          <div class="ft-logo">
+            <img src="img/logo-efrei.png" alt="EFREI">
+            <span>Informatique</span>
+          </div>
+          <p class="ft-desc">Département d'Informatique de l'EFREI Paris — Formant les ingénieurs et experts du numérique de demain.</p>
+        </div>
+        <div>
+          <div class="ft-ct">Formation</div>
+          <a href="formations.html" class="ft-lk">Bachelors</a>
+          <a href="formations.html" class="ft-lk">Cycle Ingénieur</a>
+          <a href="formations.html" class="ft-lk">Alternance</a>
+        </div>
+        <div>
+          <div class="ft-ct">Campus</div>
+          <a href="equipe.html" class="ft-lk">Corps Enseignant</a>
+          <a href="equipe.html" class="ft-lk">Recherche</a>
+          <a href="contact.html" class="ft-lk">Admissions</a>
+        </div>
+        <div>
+          <div class="ft-ct">Contact</div>
+          <a href="contact.html" class="ft-lk">Formulaire</a>
+          <a href="contact.html#permanences" class="ft-lk">Permanences</a>
+          <a href="contact.html#faq" class="ft-lk">FAQ</a>
+          <a href="contact.html#about" class="ft-lk">À propos</a>
+        </div>
+      </div>
+      <div class="ft-bot">
+        <span>© 2026 EFREI Paris — Département Informatique</span>
+        <a href="contact.html#about">À propos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
