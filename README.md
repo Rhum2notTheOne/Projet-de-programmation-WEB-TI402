@@ -94,8 +94,8 @@ python3 -m http.server 8000
 ---
 
 ## 👥 Membres du projet
-
-À compléter dans la section « À propos » de `contact.html`.
+Benjamin Bouchoucha
+Romain Malot
 
 ---
 
